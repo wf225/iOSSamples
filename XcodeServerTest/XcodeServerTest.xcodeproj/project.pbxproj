@@ -399,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (3D8BP56Q9E)";
 				INFOPLIST_FILE = XcodeServerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.XcodeServerTest;
@@ -410,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (3D8BP56Q9E)";
 				INFOPLIST_FILE = XcodeServerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.XcodeServerTest;
@@ -484,6 +486,7 @@
 				32EC6F6E1C86EC9E006BD33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32EC6F6F1C86EC9E006BD33F /* Build configuration list for PBXNativeTarget "XcodeServerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				32EC6F711C86EC9E006BD33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32EC6F721C86EC9E006BD33F /* Build configuration list for PBXNativeTarget "XcodeServerTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +504,7 @@
 				32EC6F741C86EC9E006BD33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
