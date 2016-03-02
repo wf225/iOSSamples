@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GL3D.xcscheme_^#shared#^_</key>
+		<key>XcodeServerTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3270E8D11C06A32400E9D6C6</key>
+		<key>32EC6F431C86EC9E006BD33F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32EC6F571C86EC9E006BD33F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32EC6F621C86EC9E006BD33F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

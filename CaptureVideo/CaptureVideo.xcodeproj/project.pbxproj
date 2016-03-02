@@ -90,9 +90,6 @@
 		3270E8841BFD4BCD00E9D6C6 = {
 			isa = PBXGroup;
 			children = (
-				3270E8C71BFD4DDC00E9D6C6 /* CoreMedia.framework */,
-				3270E8C51BFD4DD500E9D6C6 /* CoreVideo.framework */,
-				3270E8C31BFD4C2B00E9D6C6 /* AVFoundation.framework */,
 				3270E88F1BFD4BCD00E9D6C6 /* CaptureVideo */,
 				3270E8A91BFD4BCD00E9D6C6 /* CaptureVideoTests */,
 				3270E8B41BFD4BCD00E9D6C6 /* CaptureVideoUITests */,
@@ -121,6 +118,7 @@
 				3270E89C1BFD4BCD00E9D6C6 /* Assets.xcassets */,
 				3270E89E1BFD4BCD00E9D6C6 /* LaunchScreen.storyboard */,
 				3270E8A11BFD4BCD00E9D6C6 /* Info.plist */,
+				32858E051C86B5D800DB1190 /* Frameworks */,
 				3270E8901BFD4BCD00E9D6C6 /* Supporting Files */,
 			);
 			path = CaptureVideo;
@@ -150,6 +148,16 @@
 				3270E8B71BFD4BCD00E9D6C6 /* Info.plist */,
 			);
 			path = CaptureVideoUITests;
+			sourceTree = "<group>";
+		};
+		32858E051C86B5D800DB1190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3270E8C71BFD4DDC00E9D6C6 /* CoreMedia.framework */,
+				3270E8C51BFD4DD500E9D6C6 /* CoreVideo.framework */,
+				3270E8C31BFD4C2B00E9D6C6 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (3D8BP56Q9E)";
 				INFOPLIST_FILE = CaptureVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Autodesk.CaptureVideo;
@@ -436,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (3D8BP56Q9E)";
 				INFOPLIST_FILE = CaptureVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Autodesk.CaptureVideo;
@@ -510,6 +520,7 @@
 				3270E8BC1BFD4BCD00E9D6C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3270E8BD1BFD4BCD00E9D6C6 /* Build configuration list for PBXNativeTarget "CaptureVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +529,7 @@
 				3270E8BF1BFD4BCD00E9D6C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3270E8C01BFD4BCD00E9D6C6 /* Build configuration list for PBXNativeTarget "CaptureVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +538,7 @@
 				3270E8C21BFD4BCD00E9D6C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

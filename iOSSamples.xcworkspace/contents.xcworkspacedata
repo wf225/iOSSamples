@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:XcodeServerTest/XcodeServerTest.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:GL3D/GL3D.xcodeproj">
    </FileRef>
    <FileRef
