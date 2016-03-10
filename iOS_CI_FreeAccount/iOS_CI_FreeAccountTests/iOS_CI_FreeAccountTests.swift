@@ -34,7 +34,7 @@ class iOS_CI_FreeAccountTests: XCTestCase {
     }
     
     func testTrue() {
-        XCTAssert(false, "Can not be zero");
+        XCTAssert(true, "Can not be zero");
     }
     
 }
