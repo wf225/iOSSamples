@@ -403,7 +403,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOS_CI_FreeAccount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Autodesk.iOS-CI-FreeAccount";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Autodesk.aud.iOS-CI-FreeAccount";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -415,7 +415,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOS_CI_FreeAccount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Autodesk.iOS-CI-FreeAccount";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Autodesk.aud.iOS-CI-FreeAccount";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -487,6 +487,7 @@
 				3259FB051C900AD4009E3DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3259FB061C900AD4009E3DD7 /* Build configuration list for PBXNativeTarget "iOS_CI_FreeAccountTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				3259FB081C900AD4009E3DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3259FB091C900AD4009E3DD7 /* Build configuration list for PBXNativeTarget "iOS_CI_FreeAccountUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				3259FB0B1C900AD4009E3DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
