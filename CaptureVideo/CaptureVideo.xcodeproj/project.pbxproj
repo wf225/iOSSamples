@@ -21,48 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3208C63B1C8EE0C700F2FA93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3208C6351C8EE0C700F2FA93 /* iOS_CI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3208C6041C8EAE7800F2FA93;
-			remoteInfo = iOS_CI;
-		};
-		3208C63D1C8EE0C700F2FA93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3208C6351C8EE0C700F2FA93 /* iOS_CI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3208C6181C8EAE7800F2FA93;
-			remoteInfo = iOS_CITests;
-		};
-		3208C63F1C8EE0C700F2FA93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3208C6351C8EE0C700F2FA93 /* iOS_CI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3208C6231C8EAE7800F2FA93;
-			remoteInfo = iOS_CIUITests;
-		};
-		3208C6471C8EE0D300F2FA93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3208C6411C8EE0D300F2FA93 /* iOS_CI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3208C6041C8EAE7800F2FA93;
-			remoteInfo = iOS_CI;
-		};
-		3208C6491C8EE0D300F2FA93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3208C6411C8EE0D300F2FA93 /* iOS_CI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3208C6181C8EAE7800F2FA93;
-			remoteInfo = iOS_CITests;
-		};
-		3208C64B1C8EE0D300F2FA93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3208C6411C8EE0D300F2FA93 /* iOS_CI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3208C6231C8EAE7800F2FA93;
-			remoteInfo = iOS_CIUITests;
-		};
 		3270E8A71BFD4BCD00E9D6C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3270E8851BFD4BCD00E9D6C6 /* Project object */;
@@ -80,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3208C6351C8EE0C700F2FA93 /* iOS_CI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOS_CI.xcodeproj; path = ../iOS_CI/iOS_CI.xcodeproj; sourceTree = "<group>"; };
-		3208C6411C8EE0D300F2FA93 /* iOS_CI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOS_CI.xcodeproj; path = ../iOS_CI/iOS_CI.xcodeproj; sourceTree = "<group>"; };
 		3270E88D1BFD4BCD00E9D6C6 /* CaptureVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3270E8911BFD4BCD00E9D6C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3270E8931BFD4BCD00E9D6C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,31 +87,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3208C6361C8EE0C700F2FA93 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3208C63C1C8EE0C700F2FA93 /* iOS_CI.app */,
-				3208C63E1C8EE0C700F2FA93 /* iOS_CITests.xctest */,
-				3208C6401C8EE0C700F2FA93 /* iOS_CIUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3208C6421C8EE0D300F2FA93 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3208C6481C8EE0D300F2FA93 /* iOS_CI.app */,
-				3208C64A1C8EE0D300F2FA93 /* iOS_CITests.xctest */,
-				3208C64C1C8EE0D300F2FA93 /* iOS_CIUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3270E8841BFD4BCD00E9D6C6 = {
 			isa = PBXGroup;
 			children = (
-				3208C6411C8EE0D300F2FA93 /* iOS_CI.xcodeproj */,
-				3208C6351C8EE0C700F2FA93 /* iOS_CI.xcodeproj */,
 				3270E88F1BFD4BCD00E9D6C6 /* CaptureVideo */,
 				3270E8A91BFD4BCD00E9D6C6 /* CaptureVideoTests */,
 				3270E8B41BFD4BCD00E9D6C6 /* CaptureVideoUITests */,
@@ -315,16 +249,6 @@
 			mainGroup = 3270E8841BFD4BCD00E9D6C6;
 			productRefGroup = 3270E88E1BFD4BCD00E9D6C6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3208C6361C8EE0C700F2FA93 /* Products */;
-					ProjectRef = 3208C6351C8EE0C700F2FA93 /* iOS_CI.xcodeproj */;
-				},
-				{
-					ProductGroup = 3208C6421C8EE0D300F2FA93 /* Products */;
-					ProjectRef = 3208C6411C8EE0D300F2FA93 /* iOS_CI.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				3270E88C1BFD4BCD00E9D6C6 /* CaptureVideo */,
@@ -333,51 +257,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3208C63C1C8EE0C700F2FA93 /* iOS_CI.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOS_CI.app;
-			remoteRef = 3208C63B1C8EE0C700F2FA93 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3208C63E1C8EE0C700F2FA93 /* iOS_CITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iOS_CITests.xctest;
-			remoteRef = 3208C63D1C8EE0C700F2FA93 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3208C6401C8EE0C700F2FA93 /* iOS_CIUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iOS_CIUITests.xctest;
-			remoteRef = 3208C63F1C8EE0C700F2FA93 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3208C6481C8EE0D300F2FA93 /* iOS_CI.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOS_CI.app;
-			remoteRef = 3208C6471C8EE0D300F2FA93 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3208C64A1C8EE0D300F2FA93 /* iOS_CITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iOS_CITests.xctest;
-			remoteRef = 3208C6491C8EE0D300F2FA93 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3208C64C1C8EE0D300F2FA93 /* iOS_CIUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iOS_CIUITests.xctest;
-			remoteRef = 3208C64B1C8EE0D300F2FA93 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3270E88B1BFD4BCD00E9D6C6 /* Resources */ = {

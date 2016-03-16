@@ -8,9 +8,6 @@
       location = "group:iOS_CI/iOS_CI.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:XcodeServerTest/XcodeServerTest.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:GL3D/GL3D.xcodeproj">
    </FileRef>
    <FileRef

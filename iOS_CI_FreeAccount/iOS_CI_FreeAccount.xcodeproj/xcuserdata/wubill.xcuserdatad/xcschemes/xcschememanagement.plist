@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>XcodeServerTest.xcscheme_^#shared#^_</key>
+		<key>iOS_CI_FreeAccount.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>32EC6F431C86EC9E006BD33F</key>
+		<key>3259FADA1C900AD3009E3DD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32EC6F571C86EC9E006BD33F</key>
+		<key>3259FAEE1C900AD4009E3DD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32EC6F621C86EC9E006BD33F</key>
+		<key>3259FAF91C900AD4009E3DD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
