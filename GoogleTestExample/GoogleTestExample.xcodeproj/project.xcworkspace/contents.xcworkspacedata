@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GoogleTestExample.xcodeproj">
+      location = "self:/Users/wubill/GitMy/iOSSamples/iOSGoogleTestExample/GoogleTestExample.xcodeproj">
    </FileRef>
 </Workspace>

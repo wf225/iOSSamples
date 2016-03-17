@@ -13,7 +13,6 @@
 		329222601C9A3D6C00F9A104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3292225E1C9A3D6C00F9A104 /* LaunchScreen.storyboard */; };
 		3292226B1C9A3D6D00F9A104 /* iOSGTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3292226A1C9A3D6D00F9A104 /* iOSGTestAppTests.m */; };
 		329222761C9A3D6D00F9A104 /* iOSGTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329222751C9A3D6D00F9A104 /* iOSGTestAppUITests.m */; };
-		329222831C9A3EA700F9A104 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8210E188CF70600DC1008 /* libgtest.a */; };
 		329222841C9A3F1E00F9A104 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8210E188CF70600DC1008 /* libgtest.a */; };
 		329222871C9A3F6300F9A104 /* CounterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E7389617E205E30077AEC5 /* CounterTest.cpp */; };
 		329222881C9A3F6300F9A104 /* ExampleObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */; };
@@ -23,6 +22,8 @@
 		329222911C9A40A600F9A104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329221F31C99660E00F9A104 /* UIKit.framework */; };
 		329222941C9A424400F9A104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 329222541C9A3D6C00F9A104 /* AppDelegate.m */; };
 		329222951C9A424400F9A104 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329222571C9A3D6C00F9A104 /* ViewController.m */; };
+		329222991C9A553D00F9A104 /* libdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F82138188CF7AB00DC1008 /* libdemo.a */; };
+		3292229A1C9A553D00F9A104 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8210E188CF70600DC1008 /* libgtest.a */; };
 		C9959FB1188F91F50031BFA5 /* ExampleObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */; };
 		C9959FB2188F91F50031BFA5 /* ExampleObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */; };
 		C9BB83E617E1FEE0008820CF /* libdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BB83D617E1FDFD008820CF /* libdemo.a */; };
@@ -65,21 +66,28 @@
 			remoteGlobalIDString = 3292224D1C9A3D6C00F9A104;
 			remoteInfo = iOSGTestApp;
 		};
-		329222851C9A3F5300F9A104 /* PBXContainerItemProxy */ = {
+		3292229B1C9A554900F9A104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C9F82137188CF7AB00DC1008;
 			remoteInfo = "demo-ios";
 		};
-		3292228B1C9A404C00F9A104 /* PBXContainerItemProxy */ = {
+		3292229D1C9A554900F9A104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C9F8210D188CF70600DC1008;
 			remoteInfo = "gtest-ios";
 		};
-		329222921C9A418E00F9A104 /* PBXContainerItemProxy */ = {
+		329222A01C9A7E4400F9A104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F82137188CF7AB00DC1008;
+			remoteInfo = "demo-ios";
+		};
+		329222A21C9A7E4400F9A104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
 			proxyType = 1;
@@ -208,9 +216,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329222991C9A553D00F9A104 /* libdemo.a in Frameworks */,
+				3292229A1C9A553D00F9A104 /* libgtest.a in Frameworks */,
 				329222911C9A40A600F9A104 /* UIKit.framework in Frameworks */,
 				329222901C9A409200F9A104 /* Foundation.framework in Frameworks */,
-				329222831C9A3EA700F9A104 /* libgtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +483,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				3292228C1C9A404C00F9A104 /* PBXTargetDependency */,
+				3292229C1C9A554900F9A104 /* PBXTargetDependency */,
+				3292229E1C9A554900F9A104 /* PBXTargetDependency */,
 			);
 			name = iOSGTestApp;
 			productName = iOSGTestApp;
@@ -492,8 +502,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				329222931C9A418E00F9A104 /* PBXTargetDependency */,
-				329222861C9A3F5300F9A104 /* PBXTargetDependency */,
+				329222A11C9A7E4400F9A104 /* PBXTargetDependency */,
+				329222A31C9A7E4400F9A104 /* PBXTargetDependency */,
 				329222681C9A3D6D00F9A104 /* PBXTargetDependency */,
 			);
 			name = iOSGTestAppTests;
@@ -863,20 +873,25 @@
 			target = 3292224D1C9A3D6C00F9A104 /* iOSGTestApp */;
 			targetProxy = 329222721C9A3D6D00F9A104 /* PBXContainerItemProxy */;
 		};
-		329222861C9A3F5300F9A104 /* PBXTargetDependency */ = {
+		3292229C1C9A554900F9A104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9F82137188CF7AB00DC1008 /* demo-ios */;
-			targetProxy = 329222851C9A3F5300F9A104 /* PBXContainerItemProxy */;
+			targetProxy = 3292229B1C9A554900F9A104 /* PBXContainerItemProxy */;
 		};
-		3292228C1C9A404C00F9A104 /* PBXTargetDependency */ = {
+		3292229E1C9A554900F9A104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9F8210D188CF70600DC1008 /* gtest-ios */;
-			targetProxy = 3292228B1C9A404C00F9A104 /* PBXContainerItemProxy */;
+			targetProxy = 3292229D1C9A554900F9A104 /* PBXContainerItemProxy */;
 		};
-		329222931C9A418E00F9A104 /* PBXTargetDependency */ = {
+		329222A11C9A7E4400F9A104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F82137188CF7AB00DC1008 /* demo-ios */;
+			targetProxy = 329222A01C9A7E4400F9A104 /* PBXContainerItemProxy */;
+		};
+		329222A31C9A7E4400F9A104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9F8210D188CF70600DC1008 /* gtest-ios */;
-			targetProxy = 329222921C9A418E00F9A104 /* PBXContainerItemProxy */;
+			targetProxy = 329222A21C9A7E4400F9A104 /* PBXContainerItemProxy */;
 		};
 		C9C671EF17E1823100ED64D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1322,6 +1337,7 @@
 				3292227A1C9A3D6D00F9A104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3292227B1C9A3D6D00F9A104 /* Build configuration list for PBXNativeTarget "iOSGTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -1330,6 +1346,7 @@
 				3292227D1C9A3D6D00F9A104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3292227E1C9A3D6D00F9A104 /* Build configuration list for PBXNativeTarget "iOSGTestAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -1338,6 +1355,7 @@
 				329222801C9A3D6D00F9A104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9BB83D717E1FDFD008820CF /* Build configuration list for PBXNativeTarget "demo" */ = {
 			isa = XCConfigurationList;
