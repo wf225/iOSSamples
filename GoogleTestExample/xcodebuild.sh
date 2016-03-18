@@ -5,8 +5,8 @@
 workspace_path=/Users/wubill/GitMy/iOSSamples
 project_name=GoogleTestExample
 build_path=$workspace_path/$project_name
-scheme_name='iOSGTestApp'
-derived_path='output'
+scheme_name="iOSGTestApp"
+derived_path="output"
 
 # sdk_name="iphonesimulator9.2"
 # destination_setting="platform=iOS Simulator,name=iPhone 6s,OS=9.2"

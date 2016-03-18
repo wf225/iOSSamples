@@ -20,6 +20,20 @@
                ReferencedContainer = "container:GoogleTestExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "329222701C9A3D6D00F9A104"
+               BuildableName = "iOSGTestAppUITests.xctest"
+               BlueprintName = "iOSGTestAppUITests"
+               ReferencedContainer = "container:GoogleTestExample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,6 +49,16 @@
                BlueprintIdentifier = "329222651C9A3D6C00F9A104"
                BuildableName = "iOSGTestAppTests.xctest"
                BlueprintName = "iOSGTestAppTests"
+               ReferencedContainer = "container:GoogleTestExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "329222701C9A3D6D00F9A104"
+               BuildableName = "iOSGTestAppUITests.xctest"
+               BlueprintName = "iOSGTestAppUITests"
                ReferencedContainer = "container:GoogleTestExample.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3291DBF71C9BF0C900B8C194 /* libdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F82138188CF7AB00DC1008 /* libdemo.a */; };
+		3291DBF81C9BF0C900B8C194 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8210E188CF70600DC1008 /* libgtest.a */; };
+		3291DBF91C9BF0D400B8C194 /* CounterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E7389617E205E30077AEC5 /* CounterTest.cpp */; };
+		3291DBFA1C9BF0D400B8C194 /* ExampleObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */; };
+		3291DBFB1C9BF0D400B8C194 /* GoogleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9C6721D17E1876200ED64D4 /* GoogleTests.mm */; };
 		329222521C9A3D6C00F9A104 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 329222511C9A3D6C00F9A104 /* main.mm */; };
 		3292225B1C9A3D6C00F9A104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329222591C9A3D6C00F9A104 /* Main.storyboard */; };
 		3292225D1C9A3D6C00F9A104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3292225C1C9A3D6C00F9A104 /* Assets.xcassets */; };
@@ -52,6 +57,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3291DBF31C9BF0C100B8C194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F82137188CF7AB00DC1008;
+			remoteInfo = "demo-ios";
+		};
+		3291DBF51C9BF0C100B8C194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F8210D188CF70600DC1008;
+			remoteInfo = "gtest-ios";
+		};
 		329222671C9A3D6D00F9A104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
@@ -187,6 +206,7 @@
 		329222711C9A3D6D00F9A104 /* iOSGTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSGTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329222751C9A3D6D00F9A104 /* iOSGTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGTestAppUITests.m; sourceTree = "<group>"; };
 		329222771C9A3D6D00F9A104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B3C2711C9BAE8C00E33A76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjCTest.m; sourceTree = "<group>"; };
 		C9BB83D617E1FDFD008820CF /* libdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C671B117E0312F00ED64D4 /* standalone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = standalone; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +256,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3291DBF71C9BF0C900B8C194 /* libdemo.a in Frameworks */,
+				3291DBF81C9BF0C900B8C194 /* libgtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +433,7 @@
 		C9C671C617E1820400ED64D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32B3C2711C9BAE8C00E33A76 /* XCTest.framework */,
 				329221F31C99660E00F9A104 /* UIKit.framework */,
 				329221F11C9965FB00F9A104 /* Foundation.framework */,
 				C9C671C717E1820400ED64D4 /* Cocoa.framework */,
@@ -522,6 +545,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				3291DBF41C9BF0C100B8C194 /* PBXTargetDependency */,
+				3291DBF61C9BF0C100B8C194 /* PBXTargetDependency */,
 				329222731C9A3D6D00F9A104 /* PBXTargetDependency */,
 			);
 			name = iOSGTestAppUITests;
@@ -796,6 +821,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3291DBF91C9BF0D400B8C194 /* CounterTest.cpp in Sources */,
+				3291DBFA1C9BF0D400B8C194 /* ExampleObjCTest.m in Sources */,
+				3291DBFB1C9BF0D400B8C194 /* GoogleTests.mm in Sources */,
 				329222761C9A3D6D00F9A104 /* iOSGTestAppUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -864,6 +892,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3291DBF41C9BF0C100B8C194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F82137188CF7AB00DC1008 /* demo-ios */;
+			targetProxy = 3291DBF31C9BF0C100B8C194 /* PBXContainerItemProxy */;
+		};
+		3291DBF61C9BF0C100B8C194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F8210D188CF70600DC1008 /* gtest-ios */;
+			targetProxy = 3291DBF51C9BF0C100B8C194 /* PBXContainerItemProxy */;
+		};
 		329222681C9A3D6D00F9A104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3292224D1C9A3D6C00F9A104 /* iOSGTestApp */;
@@ -958,6 +996,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -988,6 +1027,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
