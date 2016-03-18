@@ -14,6 +14,7 @@ destination_setting="name=iPhone 6s"
 # sdk_name="iphoneos"
 # destination_setting="platform=iOS,id=88dda2712830c2020dfb4f09f08bfe512a1ab935"
 
+app_path=$build_path/$derived_path/Build/Products/Release-iphonesimulator
 
 # xcodebuild test -project GoogleTestExample.xcodeproj -scheme iOSGTestApp -sdk iphonesimulator9.2 -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2'
 # xcodebuild test -project GoogleTestExample.xcodeproj -scheme iOSGTestApp -sdk iphoneos -destination 'platform=iOS,id=88dda2712830c2020dfb4f09f08bfe512a1ab935'
@@ -45,9 +46,6 @@ xctool -project $project_name.xcodeproj \
 #        -destination "name=iPhone 6s" \
 #        -derivedDataPath $derived_path \
 #        run-tests -freshSimulator
-
-
-app_path=$build_path/$derived_path/Build/Products/Release-iphonesimulator
 
 # xctool -sdk $sdk_name \
 #        -configuration Release \

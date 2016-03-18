@@ -7,27 +7,23 @@ scheme_name="iOSGTestApp"
 derived_path="output"
 CONFIG="Debug"
 
-# sdk_name="iphonesimulator9.2"
-# destination_setting="name=iPhone 6s"
 sdk_name="iphoneos"
 destination_setting="platform=iOS,id=88dda2712830c2020dfb4f09f08bfe512a1ab935"
-
 app_path=$build_path/$derived_path/Build/Products/$CONFIG-iphoneos
-#-iphonesimulator
 
-# # "Execute clean"
-# xctool -project $project_name.xcodeproj \
-#        -scheme $scheme_name \
-#        clean
+# "Execute clean"
+xctool -project $project_name.xcodeproj \
+       -scheme $scheme_name \
+       clean
 
-# # "Execute执行 build-tests"
-# xctool -project $project_name.xcodeproj \
-#        -scheme $scheme_name \
-#        -sdk $sdk_name \
-#        -configuration $CONFIG \
-#        -derivedDataPath $derived_path \
-#        -CODE_SIGN_IDENTITY="iPhone Developer: Bill Wu (P8488Y53R7)" \
-#        build-tests
+# "Execute执行 build-tests"
+xctool -project $project_name.xcodeproj \
+       -scheme $scheme_name \
+       -sdk $sdk_name \
+       -configuration $CONFIG \
+       -derivedDataPath $derived_path \
+       -CODE_SIGN_IDENTITY="iPhone Developer: Bill Wu (P8488Y53R7)" \
+       build-tests
 
 
 # List ids and names of connected devices
