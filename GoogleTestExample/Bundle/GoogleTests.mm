@@ -39,7 +39,7 @@ static NSString * const GoogleTestDisabledPrefix = @"DISABLED_";
  * If a class name generated for a Google Test case conflicts with an existing
  * class the value of this variable can be changed to add a class prefix.
  */
-static NSString * const GeneratedClassPrefix = @"";
+static NSString * const GeneratedClassPrefix = @"GTest";
 
 /**
  * Map of test keys to Google Test filter strings.

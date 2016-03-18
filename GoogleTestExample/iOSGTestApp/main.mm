@@ -9,14 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
-//#include "Counter.h"
-
 int main(int argc, char * argv[]) {
     
-//    Counter counter;
-//    counter.GetCount();
-    
     @autoreleasepool {
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

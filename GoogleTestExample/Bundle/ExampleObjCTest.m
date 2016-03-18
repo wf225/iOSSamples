@@ -9,6 +9,7 @@
 @implementation ExampleObjCTest
 
 - (void)testExample {
+    NSString *documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
 	XCTAssert(YES, @"Well this is awkward.");
 }
 

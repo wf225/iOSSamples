@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#include "Counter.h"
+#import <XCTest/XCTest.h>
 
 @interface ViewController ()
 
@@ -19,6 +21,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSString *documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    
+    
+    Counter counter;
+    counter.Increment();
+    counter.GetCount();
 
 }
 

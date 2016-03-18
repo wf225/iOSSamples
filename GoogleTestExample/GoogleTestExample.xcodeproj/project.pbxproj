@@ -21,7 +21,7 @@
 		329222901C9A409200F9A104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329221F11C9965FB00F9A104 /* Foundation.framework */; };
 		329222911C9A40A600F9A104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329221F31C99660E00F9A104 /* UIKit.framework */; };
 		329222941C9A424400F9A104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 329222541C9A3D6C00F9A104 /* AppDelegate.m */; };
-		329222951C9A424400F9A104 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329222571C9A3D6C00F9A104 /* ViewController.m */; };
+		329222951C9A424400F9A104 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 329222571C9A3D6C00F9A104 /* ViewController.mm */; };
 		329222991C9A553D00F9A104 /* libdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F82138188CF7AB00DC1008 /* libdemo.a */; };
 		3292229A1C9A553D00F9A104 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8210E188CF70600DC1008 /* libgtest.a */; };
 		C9959FB1188F91F50031BFA5 /* ExampleObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */; };
@@ -66,20 +66,6 @@
 			remoteGlobalIDString = 3292224D1C9A3D6C00F9A104;
 			remoteInfo = iOSGTestApp;
 		};
-		3292229B1C9A554900F9A104 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9F82137188CF7AB00DC1008;
-			remoteInfo = "demo-ios";
-		};
-		3292229D1C9A554900F9A104 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9F8210D188CF70600DC1008;
-			remoteInfo = "gtest-ios";
-		};
 		329222A01C9A7E4400F9A104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
@@ -88,6 +74,20 @@
 			remoteInfo = "demo-ios";
 		};
 		329222A21C9A7E4400F9A104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F8210D188CF70600DC1008;
+			remoteInfo = "gtest-ios";
+		};
+		32B3C26A1C9B94EC00E33A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F82137188CF7AB00DC1008;
+			remoteInfo = "demo-ios";
+		};
+		32B3C26C1C9B94EC00E33A76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9C671A917E0312F00ED64D4 /* Project object */;
 			proxyType = 1;
@@ -176,7 +176,7 @@
 		329222531C9A3D6C00F9A104 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		329222541C9A3D6C00F9A104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		329222561C9A3D6C00F9A104 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		329222571C9A3D6C00F9A104 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		329222571C9A3D6C00F9A104 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		3292225A1C9A3D6C00F9A104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3292225C1C9A3D6C00F9A104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3292225F1C9A3D6C00F9A104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -309,7 +309,7 @@
 				329222531C9A3D6C00F9A104 /* AppDelegate.h */,
 				329222541C9A3D6C00F9A104 /* AppDelegate.m */,
 				329222561C9A3D6C00F9A104 /* ViewController.h */,
-				329222571C9A3D6C00F9A104 /* ViewController.m */,
+				329222571C9A3D6C00F9A104 /* ViewController.mm */,
 				329222591C9A3D6C00F9A104 /* Main.storyboard */,
 				3292225C1C9A3D6C00F9A104 /* Assets.xcassets */,
 				3292225E1C9A3D6C00F9A104 /* LaunchScreen.storyboard */,
@@ -483,8 +483,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				3292229C1C9A554900F9A104 /* PBXTargetDependency */,
-				3292229E1C9A554900F9A104 /* PBXTargetDependency */,
+				32B3C26B1C9B94EC00E33A76 /* PBXTargetDependency */,
+				32B3C26D1C9B94EC00E33A76 /* PBXTargetDependency */,
 			);
 			name = iOSGTestApp;
 			productName = iOSGTestApp;
@@ -666,6 +666,7 @@
 				TargetAttributes = {
 					3292224D1C9A3D6C00F9A104 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FR3XF4GK2H;
 					};
 					329222651C9A3D6C00F9A104 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -775,7 +776,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				329222941C9A424400F9A104 /* AppDelegate.m in Sources */,
-				329222951C9A424400F9A104 /* ViewController.m in Sources */,
+				329222951C9A424400F9A104 /* ViewController.mm in Sources */,
 				329222521C9A3D6C00F9A104 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -873,16 +874,6 @@
 			target = 3292224D1C9A3D6C00F9A104 /* iOSGTestApp */;
 			targetProxy = 329222721C9A3D6D00F9A104 /* PBXContainerItemProxy */;
 		};
-		3292229C1C9A554900F9A104 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9F82137188CF7AB00DC1008 /* demo-ios */;
-			targetProxy = 3292229B1C9A554900F9A104 /* PBXContainerItemProxy */;
-		};
-		3292229E1C9A554900F9A104 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9F8210D188CF70600DC1008 /* gtest-ios */;
-			targetProxy = 3292229D1C9A554900F9A104 /* PBXContainerItemProxy */;
-		};
 		329222A11C9A7E4400F9A104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9F82137188CF7AB00DC1008 /* demo-ios */;
@@ -892,6 +883,16 @@
 			isa = PBXTargetDependency;
 			target = C9F8210D188CF70600DC1008 /* gtest-ios */;
 			targetProxy = 329222A21C9A7E4400F9A104 /* PBXContainerItemProxy */;
+		};
+		32B3C26B1C9B94EC00E33A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F82137188CF7AB00DC1008 /* demo-ios */;
+			targetProxy = 32B3C26A1C9B94EC00E33A76 /* PBXContainerItemProxy */;
+		};
+		32B3C26D1C9B94EC00E33A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F8210D188CF70600DC1008 /* gtest-ios */;
+			targetProxy = 32B3C26C1C9B94EC00E33A76 /* PBXContainerItemProxy */;
 		};
 		C9C671EF17E1823100ED64D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -953,6 +954,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -982,6 +984,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1259,6 +1262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					Dependencies/gtest,
@@ -1272,6 +1276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					Dependencies/gtest,
@@ -1284,6 +1289,7 @@
 		C9F82155188CF7AB00DC1008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				PRODUCT_NAME = demo;
 				SDKROOT = iphoneos;
 			};
@@ -1292,6 +1298,7 @@
 		C9F82156188CF7AB00DC1008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				PRODUCT_NAME = demo;
 				SDKROOT = iphoneos;
 			};
@@ -1300,6 +1307,7 @@
 		C9F8216F188CF81C00DC1008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1315,6 +1323,7 @@
 		C9F82170188CF81C00DC1008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
